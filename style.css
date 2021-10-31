@@ -1,0 +1,122 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --body-font: 'Patrick Hand', cursive;
+}
+
+body {
+    font-family: var(--body-font);
+}
+
+
+/* invent header  styling starts */
+
+.invent-mainheader-container {
+    background-image: linear-gradient(to left, #535254, #46484a, #393d3f, #2f3332, #262926);
+}
+
+.invent-subheader-container {
+    color: white;
+    border-radius: 20%;
+    background-image: linear-gradient(to left, #c90bfe, #ff0087, #ff5500, #dbba00, #1ff217);
+}
+
+
+/* invetions definitions styling starts */
+
+.invent-definition-subcontainer {
+    padding: 1rem 2rem 1rem 2rem;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px gray;
+    background-image: linear-gradient(to left, #e2adef, #afceff, #a1e6ff, #c3f3ed, #eefced);
+}
+
+.invent-definition-subcontainer p {
+    line-height: 2rem;
+    font-size: 1.2rem;
+}
+
+.latest-invent-heading h4 {
+    text-decoration: underline rgb(19, 18, 18) wavy 2px;
+    padding-bottom: 1rem;
+    color: rgb(4, 59, 55);
+}
+
+
+/* invent main container styling starts */
+
+.invent-maincontainer {
+    background-image: url("images/inventbg2.jpg");
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    /* background-attachment: fixed; */
+    overflow: hidden;
+}
+
+.invent-lastcontainer {
+    margin-top: 2.5rem;
+}
+
+
+/* button styling starts */
+
+.inv_button {
+    text-decoration: none;
+    padding: 4px 0.5rem 4px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.inv_button:hover {
+    background-color: black;
+    color: white;
+}
+
+
+/* images styling starts */
+
+.imgs {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+
+
+/* card styling starts */
+
+.card {
+    background-image: linear-gradient(to right, #f9c9d9, #f2cbca, #e5cfc5, #d8d1c8, #d1d1d0);
+    color: black;
+}
+
+
+/* responsive starts */
+
+@media screen and (max-width:767px) {
+    .imgs {
+        height: 20vh;
+    }
+    .invent-lastcontainer {
+        margin-top: 0;
+    }
+    .inventcontainer-items {
+        margin: 1rem 0 1rem 0;
+    }
+    .invent-definition-subcontainer p {
+        line-height: 1.2rem;
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+    .inventcontainer-items {
+        padding: 0;
+    }
+    .invent-lastcontainer {
+        margin-top: 1rem;
+    }
+}
