@@ -5,7 +5,7 @@
 }
 
 :root {
-    --body-font: 'Patrick Hand',Roboto;
+    --body-font: 'Patrick Hand',roboto;
 }
 
 body {
@@ -108,7 +108,7 @@ body {
     }
     .invent-definition-subcontainer p {
         line-height: 1.2rem;
-        font-size: 1.2rem;
+
     }
 }
 
